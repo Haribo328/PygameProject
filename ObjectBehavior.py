@@ -3,7 +3,7 @@ from CONSTANTS import *
 
 class Pistole(object):
     def __init__(self):
-        self.bullets = 7
+        self.bullets = 99
 
     def fire(self, bulletSpawnPoint, *Groups):
         if self.bullets == 0:
